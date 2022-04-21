@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="generator" content="made with love by dartdoc 4.1.0">
+  <meta name="description" content="analysis_options API docs, for the Dart programming language.">
+  <title>analysis_options - Dart API docs</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="static-assets/github.css?v1">
+  <link rel="stylesheet" href="static-assets/styles.css?v1">
+  <link rel="icon" href="static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href=""
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="https://G1Joshi.github.io/analysis_options">analysis_options package</a></li>
+  </ol>
+  <div class="self-name">analysis_options</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+
+  <div id="dartdoc-main-content" class="main-content">
+      
+<section class="desc markdown">
+  <h1 id="analysis-options-for-dartflutter">Analysis Options for Dart/Flutter</h1>
+<p><strong><em>The set of rules that encourage good coding practices for applications, packages, and plugins.</em></strong></p>
+<hr>
+<h2 id="features">Features</h2>
+<p>Analyzer and Linting Rules</p>
+<hr>
+<h2 id="getting-started">Getting started</h2>
+<p>To add the package, <code>analysis_options</code>, to an project:</p>
+<ol>
+<li>
+<p>Depend on it</p>
+<ul>
+<li>Add <code>analysis_options</code> under <code>dev_dependencies</code> in the <code>pubspec.yaml</code> file.</li>
+</ul>
+</li>
+<li>
+<p>Install it</p>
+<ul>
+<li>From the terminal: Run <code>flutter pub get</code>.</li>
+</ul>
+</li>
+<li>
+<p>Import it</p>
+<ul>
+<li>Add a corresponding <code>include</code> statement in the YAML code.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="usage">Usage</h2>
+<p>To use the analysis options, add the following dev dependency in your <code>pubspec.yaml</code> file:</p>
+<pre class="language-yaml"><code class="language-yaml">dev_dependencies:
+  analysis_options: any
+</code></pre>
+<p>Add the following line in your <code>analysis_options.yaml</code> file:</p>
+<pre class="language-yaml"><code class="language-yaml">include: package:analysis_options/analysis_options.yaml
+</code></pre>
+<hr>
+<h2 id="additional-information">Additional information</h2>
+<ul>
+<li><code>Analyzer</code>: Customize static analysis.</li>
+<li><code>Linter</code>: Configure linter rules.</li>
+</ul>
+<h3 id="enabling-stricter-type-checks">Enabling stricter type checks</h3>
+<pre class="language-yaml"><code class="language-yaml">analyzer:
+  language:
+    strict-casts: true
+</code></pre>
+<h3 id="enabling-individual-rules">Enabling individual rules</h3>
+<pre class="language-yaml"><code class="language-yaml">linter:
+  rules:
+    - avoid_print
+</code></pre>
+<h3 id="disabling-individual-rules">Disabling individual rules</h3>
+<pre class="language-yaml"><code class="language-yaml">linter:
+  rules:
+    public_member_api_docs: false
+</code></pre>
+<h3 id="excluding-files">Excluding files</h3>
+<pre class="language-yaml"><code class="language-yaml">analyzer:
+  exclude:
+    - lib/generated_plugin_registrant.dart
+</code></pre>
+<h3 id="ignoring-rules">Ignoring rules</h3>
+<pre class="language-yaml"><code class="language-yaml">analyzer:
+  errors:
+    todo: ignore
+</code></pre>
+<h3 id="changing-the-severity-of-rules">Changing the severity of rules</h3>
+<pre class="language-yaml"><code class="language-yaml">analyzer:
+  errors:
+    dead_code: info
+</code></pre>
+</section>
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+  <li><a href="https://G1Joshi.github.io/analysis_options">analysis_options package</a></li>
+</ol>
+
+
+    <h5 class="hidden-xs"><span class="package-name">analysis_options</span> <span class="package-kind">package</span></h5>
+    <ol>
+</ol>
+
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div>
+
+</main>
+
+<footer>
+  <span class="no-break">
+    analysis_options
+      1.0.0
+  </span>
+
+  
+</footer>
+
+
+
+<script src="static-assets/highlight.pack.js?v1"></script>
+<script src="static-assets/script.js?v1"></script>
+
+
+
+</body>
+
+</html>
+
