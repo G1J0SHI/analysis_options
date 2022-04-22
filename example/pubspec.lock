@@ -4,9 +4,9 @@ packages:
   analysis_options:
     dependency: "direct dev"
     description:
-      path: ".."
-      relative: true
-    source: path
+      name: analysis_options
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "1.0.0"
   characters:
     dependency: transitive

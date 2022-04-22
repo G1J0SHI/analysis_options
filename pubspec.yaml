@@ -1,11 +1,10 @@
 name: analysis_options
 description: The set of rules that encourage good coding practices for applications, packages, and plugins.
 
-version: 1.0.0
+version: 1.1.0
 
 homepage: https://G1Joshi.github.io/analysis_options
 repository: https://github.com/G1Joshi/analysis_options
 
 environment:
   sdk: ">=2.16.0 <3.0.0"
-  flutter: ">=1.17.0"

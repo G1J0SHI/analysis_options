@@ -1,3 +1,8 @@
+![publisher][publisher]
+![version][version]
+
+---
+
 # Analysis Options for Dart/Flutter
 
 **_The set of rules that encourage good coding practices for applications, packages, and plugins._**
@@ -97,3 +102,8 @@ analyzer:
   errors:
     dead_code: info
 ```
+
+---
+
+[publisher]: https://img.shields.io/pub/publisher/analysis_options
+[version]: https://img.shields.io/pub/v/analysis_options

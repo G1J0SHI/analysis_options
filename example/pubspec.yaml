@@ -3,7 +3,7 @@ description: Analysis Options Example.
 
 publish_to: "none"
 
-version: 1.0.0+1
+version: 1.1.0+2
 
 environment:
   sdk: ">=2.16.0 <3.0.0"
@@ -13,5 +13,4 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
-  analysis_options:
-    path: ../
+  analysis_options: any
