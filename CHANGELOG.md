@@ -1,3 +1,7 @@
+## 2.0.0
+
+- Upgrade package
+
 ## 1.1.0
 
 - Add badges

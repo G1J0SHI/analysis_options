@@ -1,5 +1,8 @@
 ![publisher][publisher]
 ![version][version]
+![likes][likes]
+![points][points]
+![popularity][popularity]
 
 ---
 
@@ -107,3 +110,6 @@ analyzer:
 
 [publisher]: https://img.shields.io/pub/publisher/analysis_options
 [version]: https://img.shields.io/pub/v/analysis_options
+[likes]: https://img.shields.io/pub/likes/analysis_options
+[points]: https://img.shields.io/pub/points/analysis_options
+[popularity]: https://img.shields.io/pub/popularity/analysis_options
