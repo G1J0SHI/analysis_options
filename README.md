@@ -1,3 +1,5 @@
+# Analysis Options for Dart/Flutter
+
 ![publisher][publisher]
 ![version][version]
 ![likes][likes]
@@ -5,8 +7,6 @@
 ![popularity][popularity]
 
 ---
-
-# Analysis Options for Dart/Flutter
 
 **_The set of rules that encourage good coding practices for applications, packages, and plugins._**
 

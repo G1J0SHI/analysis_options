@@ -1,3 +1,8 @@
+## 2.0.1
+
+- Update homepage
+- Update repository
+
 ## 2.0.0
 
 - Upgrade package

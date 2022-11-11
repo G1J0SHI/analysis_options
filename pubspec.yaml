@@ -1,10 +1,10 @@
 name: analysis_options
 description: The set of rules that encourage good coding practices for applications, packages, and plugins.
 
-version: 2.0.0
+version: 2.0.1
 
-homepage: https://G1Joshi.github.io/analysis_options
-repository: https://github.com/G1Joshi/analysis_options
+homepage: https://G1Joshi.dev/docs/analysis_options/about/
+repository: https://github.com/G1J0SHI/analysis_options
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
