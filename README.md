@@ -5,6 +5,7 @@
 ![likes][likes]
 ![points][points]
 ![popularity][popularity]
+![downloads][downloads]
 
 ---
 
@@ -113,3 +114,4 @@ analyzer:
 [likes]: https://img.shields.io/pub/likes/analysis_options
 [points]: https://img.shields.io/pub/points/analysis_options
 [popularity]: https://img.shields.io/pub/popularity/analysis_options
+[downloads]: https://img.shields.io/pub/dm/analysis_options
